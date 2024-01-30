@@ -1,0 +1,19 @@
+.container {
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+
+.container .todo {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  top: 76px;
+  gap: 25px;
+}
+
+.container #todoList {
+  display: flex;
+  justify-content: space-around;
+  position: relative;
+  top: 115px;
+}
